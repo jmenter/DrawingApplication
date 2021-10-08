@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		634842632710CC6F007338FB /* DrawingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 634842622710CC6F007338FB /* DrawingAppDelegate.m */; };
+		634842662710CC6F007338FB /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634842652710CC6F007338FB /* DrawingViewController.m */; };
+		634842692710CC6F007338FB /* DrawingDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 634842682710CC6F007338FB /* DrawingDocument.m */; };
+		6348426B2710CC78007338FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6348426A2710CC78007338FB /* Assets.xcassets */; };
+		6348426E2710CC78007338FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6348426C2710CC78007338FB /* Main.storyboard */; };
+		634842712710CC78007338FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 634842702710CC78007338FB /* main.m */; };
+		6348427C2710CEAE007338FB /* DrawingApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6348427B2710CEAD007338FB /* DrawingApplication.m */; };
+		634842832710CFB8007338FB /* DrawingWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634842822710CFB8007338FB /* DrawingWindowController.m */; };
+		634842872710D175007338FB /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 634842862710D175007338FB /* DrawingView.m */; };
+		6348428B2710D240007338FB /* DrawingContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6348428A2710D240007338FB /* DrawingContent.m */; };
+		634842922710D9F4007338FB /* NSBezierPath+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 634842912710D9F4007338FB /* NSBezierPath+Extras.m */; };
+		6348429C2710E48D007338FB /* NSArrayController+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 6348429B2710E48D007338FB /* NSArrayController+Extras.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6348425E2710CC6F007338FB /* DrawingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		634842612710CC6F007338FB /* DrawingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingAppDelegate.h; sourceTree = "<group>"; };
+		634842622710CC6F007338FB /* DrawingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingAppDelegate.m; sourceTree = "<group>"; };
+		634842642710CC6F007338FB /* DrawingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingViewController.h; sourceTree = "<group>"; };
+		634842652710CC6F007338FB /* DrawingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingViewController.m; sourceTree = "<group>"; };
+		634842672710CC6F007338FB /* DrawingDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingDocument.h; sourceTree = "<group>"; };
+		634842682710CC6F007338FB /* DrawingDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingDocument.m; sourceTree = "<group>"; };
+		6348426A2710CC78007338FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6348426D2710CC78007338FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6348426F2710CC78007338FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		634842702710CC78007338FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		634842722710CC78007338FB /* DrawingsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DrawingsApp.entitlements; sourceTree = "<group>"; };
+		6348427A2710CEAD007338FB /* DrawingApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingApplication.h; sourceTree = "<group>"; };
+		6348427B2710CEAD007338FB /* DrawingApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingApplication.m; sourceTree = "<group>"; };
+		634842812710CFB8007338FB /* DrawingWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingWindowController.h; sourceTree = "<group>"; };
+		634842822710CFB8007338FB /* DrawingWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingWindowController.m; sourceTree = "<group>"; };
+		634842852710D175007338FB /* DrawingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		634842862710D175007338FB /* DrawingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+		634842892710D240007338FB /* DrawingContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingContent.h; sourceTree = "<group>"; };
+		6348428A2710D240007338FB /* DrawingContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingContent.m; sourceTree = "<group>"; };
+		6348428E2710D6D1007338FB /* DrawingDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingDelegate.h; sourceTree = "<group>"; };
+		634842902710D9F4007338FB /* NSBezierPath+Extras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBezierPath+Extras.h"; sourceTree = "<group>"; };
+		634842912710D9F4007338FB /* NSBezierPath+Extras.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBezierPath+Extras.m"; sourceTree = "<group>"; };
+		634842952710DAA5007338FB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = DrawingsApp/PrefixHeader.pch; sourceTree = "<group>"; };
+		6348429A2710E48D007338FB /* NSArrayController+Extras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArrayController+Extras.h"; sourceTree = "<group>"; };
+		6348429B2710E48D007338FB /* NSArrayController+Extras.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArrayController+Extras.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6348425B2710CC6F007338FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		634842552710CC6F007338FB = {
+			isa = PBXGroup;
+			children = (
+				634842952710DAA5007338FB /* PrefixHeader.pch */,
+				634842602710CC6F007338FB /* DrawingsApp */,
+				6348425F2710CC6F007338FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6348425F2710CC6F007338FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6348425E2710CC6F007338FB /* DrawingsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		634842602710CC6F007338FB /* DrawingsApp */ = {
+			isa = PBXGroup;
+			children = (
+				6348427A2710CEAD007338FB /* DrawingApplication.h */,
+				6348427B2710CEAD007338FB /* DrawingApplication.m */,
+				634842612710CC6F007338FB /* DrawingAppDelegate.h */,
+				634842622710CC6F007338FB /* DrawingAppDelegate.m */,
+				634842812710CFB8007338FB /* DrawingWindowController.h */,
+				634842822710CFB8007338FB /* DrawingWindowController.m */,
+				634842642710CC6F007338FB /* DrawingViewController.h */,
+				634842652710CC6F007338FB /* DrawingViewController.m */,
+				634842672710CC6F007338FB /* DrawingDocument.h */,
+				634842682710CC6F007338FB /* DrawingDocument.m */,
+				634842892710D240007338FB /* DrawingContent.h */,
+				6348428A2710D240007338FB /* DrawingContent.m */,
+				6348428E2710D6D1007338FB /* DrawingDelegate.h */,
+				634842852710D175007338FB /* DrawingView.h */,
+				634842862710D175007338FB /* DrawingView.m */,
+				634842902710D9F4007338FB /* NSBezierPath+Extras.h */,
+				6348429A2710E48D007338FB /* NSArrayController+Extras.h */,
+				6348429B2710E48D007338FB /* NSArrayController+Extras.m */,
+				634842912710D9F4007338FB /* NSBezierPath+Extras.m */,
+				6348426A2710CC78007338FB /* Assets.xcassets */,
+				6348426C2710CC78007338FB /* Main.storyboard */,
+				6348426F2710CC78007338FB /* Info.plist */,
+				634842702710CC78007338FB /* main.m */,
+				634842722710CC78007338FB /* DrawingsApp.entitlements */,
+			);
+			path = DrawingsApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6348425D2710CC6F007338FB /* DrawingsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 634842752710CC78007338FB /* Build configuration list for PBXNativeTarget "DrawingsApp" */;
+			buildPhases = (
+				6348425A2710CC6F007338FB /* Sources */,
+				6348425B2710CC6F007338FB /* Frameworks */,
+				6348425C2710CC6F007338FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingsApp;
+			productName = DrawingsApp;
+			productReference = 6348425E2710CC6F007338FB /* DrawingsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		634842562710CC6F007338FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6348425D2710CC6F007338FB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 634842592710CC6F007338FB /* Build configuration list for PBXProject "DrawingsApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 634842552710CC6F007338FB;
+			productRefGroup = 6348425F2710CC6F007338FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6348425D2710CC6F007338FB /* DrawingsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6348425C2710CC6F007338FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6348426B2710CC78007338FB /* Assets.xcassets in Resources */,
+				6348426E2710CC78007338FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6348425A2710CC6F007338FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6348427C2710CEAE007338FB /* DrawingApplication.m in Sources */,
+				634842692710CC6F007338FB /* DrawingDocument.m in Sources */,
+				6348428B2710D240007338FB /* DrawingContent.m in Sources */,
+				634842832710CFB8007338FB /* DrawingWindowController.m in Sources */,
+				634842662710CC6F007338FB /* DrawingViewController.m in Sources */,
+				6348429C2710E48D007338FB /* NSArrayController+Extras.m in Sources */,
+				634842712710CC78007338FB /* main.m in Sources */,
+				634842632710CC6F007338FB /* DrawingAppDelegate.m in Sources */,
+				634842922710D9F4007338FB /* NSBezierPath+Extras.m in Sources */,
+				634842872710D175007338FB /* DrawingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6348426C2710CC78007338FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6348426D2710CC78007338FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		634842732710CC78007338FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		634842742710CC78007338FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		634842762710CC78007338FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DrawingsApp/DrawingsApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H8KMXW4VV4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DrawingsApp/PrefixHeader.pch;
+				INFOPLIST_FILE = DrawingsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffmenter.DrawingsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		634842772710CC78007338FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DrawingsApp/DrawingsApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H8KMXW4VV4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DrawingsApp/PrefixHeader.pch;
+				INFOPLIST_FILE = DrawingsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeffmenter.DrawingsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		634842592710CC6F007338FB /* Build configuration list for PBXProject "DrawingsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634842732710CC78007338FB /* Debug */,
+				634842742710CC78007338FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		634842752710CC78007338FB /* Build configuration list for PBXNativeTarget "DrawingsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634842762710CC78007338FB /* Debug */,
+				634842772710CC78007338FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 634842562710CC6F007338FB /* Project object */;
+}
