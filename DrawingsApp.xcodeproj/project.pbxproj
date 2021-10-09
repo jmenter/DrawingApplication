@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630476AF2711C50900B790A0 /* DrawingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 630476AE2711C50900B790A0 /* DrawingWindow.m */; };
 		634842632710CC6F007338FB /* DrawingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 634842622710CC6F007338FB /* DrawingAppDelegate.m */; };
 		634842662710CC6F007338FB /* DrawingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 634842652710CC6F007338FB /* DrawingViewController.m */; };
 		634842692710CC6F007338FB /* DrawingDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 634842682710CC6F007338FB /* DrawingDocument.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		630476AD2711C50900B790A0 /* DrawingWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingWindow.h; sourceTree = "<group>"; };
+		630476AE2711C50900B790A0 /* DrawingWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingWindow.m; sourceTree = "<group>"; };
 		6348425E2710CC6F007338FB /* DrawingsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634842612710CC6F007338FB /* DrawingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingAppDelegate.h; sourceTree = "<group>"; };
 		634842622710CC6F007338FB /* DrawingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingAppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 				634842622710CC6F007338FB /* DrawingAppDelegate.m */,
 				634842812710CFB8007338FB /* DrawingWindowController.h */,
 				634842822710CFB8007338FB /* DrawingWindowController.m */,
+				630476AD2711C50900B790A0 /* DrawingWindow.h */,
+				630476AE2711C50900B790A0 /* DrawingWindow.m */,
 				634842642710CC6F007338FB /* DrawingViewController.h */,
 				634842652710CC6F007338FB /* DrawingViewController.m */,
 				634842672710CC6F007338FB /* DrawingDocument.h */,
@@ -187,6 +192,7 @@
 				634842632710CC6F007338FB /* DrawingAppDelegate.m in Sources */,
 				634842922710D9F4007338FB /* NSBezierPath+Extras.m in Sources */,
 				634842872710D175007338FB /* DrawingView.m in Sources */,
+				630476AF2711C50900B790A0 /* DrawingWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

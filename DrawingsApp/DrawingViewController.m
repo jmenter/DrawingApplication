@@ -21,6 +21,7 @@
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];
     self.content = representedObject;
+    [self tellViewToRedraw];
 }
 
 #pragma mark - DrawingDelegate
@@ -35,13 +36,19 @@
 
     self.pathCount = self.content.pathsController.formattedCount;
     self.currentPath = path;
-    [self.drawingView drawPaths:self.content.pathsController.arrangedObjects];
+    [self tellViewToRedraw];
 }
 
 - (void)addToPathWithPoint:(NSPoint)point;
 {
     [self.currentPath lineToPoint:point];
+    [self tellViewToRedraw];
+}
+
+- (void)tellViewToRedraw;
+{
     [self.drawingView drawPaths:self.content.pathsController.arrangedObjects];
+
 }
 
 @end
